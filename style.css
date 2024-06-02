@@ -487,7 +487,8 @@ line-height: 40px;
 }
 
 #project3{
-  background-image: url(pepsi.png);
+  background-image: url(Screenshot\ 2024-06-01\ 151049.png);
+  
 
 }
 
@@ -715,4 +716,48 @@ footer{
 
 .logotext{
   margin-left: 12px;
+}
+
+
+
+.btn-pink resume-btn {
+  background-color: #e84949; /* Adjust the color to match your theme */
+  color: white;
+  padding: 10px 20px; /* Adjust padding as necessary */
+  border: none;
+  border-radius: 5px; /* Adjust border-radius as necessary */
+  cursor: pointer;
+  text-decoration: none; /* Ensure anchor tags don't have underlines */
+  display: inline-block; /* Ensure it behaves like a button */
+  font-size: 16px; /* Adjust font size as necessary */
+  margin: 10px 0; /* Adjust margin as necessary */
+  text-align: center; /* Center the text */
+  
+  
+}
+
+.btn-pink .submit-icon {
+  margin-left: 5px; /* Space between text and icon */
+}
+
+/* Additional styles for the anchor tag to behave like a button */
+a.btn-pink resume-btn:hover {
+  color: white;
+  text-decoration: none;
+  transition: all 0.6s;
+ 
+
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+#resume-btn{
+  border: none;
+  font-size:1.4rem ;
+  margin: 1rem 0;
 }
